@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bungee&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Side Controlling Game</title>
+    </head>
+    <body>
+        <canvas id="canvas"></canvas>
+        <div class="assets">
+            <img src="./images/background_single.png" alt="" id="background" />
+            <img src="./images/player_fish.png" alt="" id="player-image" />
+            <img src="./images/smallGears.png" alt="" id="obstacle_image" />
+            <audio src="./audio/charge.mp3" id="charge"></audio>
+            <audio src="./audio/flap1.mp3" id="flap1"></audio>
+            <audio src="./audio/flap2.mp3" id="flap2"></audio>
+            <audio src="./audio/flap3.mp3" id="flap3"></audio>
+            <audio src="./audio/flap4.mp3" id="flap4"></audio>
+            <audio src="./audio/flap5.mp3" id="flap5"></audio>
+            <audio src="./audio/win.mp3" id="win"></audio>
+            <audio src="./audio/lose.mp3" id="lose"></audio>
+        </div>
+        <script src="./script/audio.js"></script>
+        <script src="./script/background.js"></script>
+        <script src="./script/player.js"></script>
+        <script src="./script/obstacle.js"></script>
+        <script src="./script/main.js"></script>
+    </body>
+</html>
