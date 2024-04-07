@@ -34,4 +34,5 @@ This is the todo list I follow to build this game:
 30. Polish details
 31. Dynamic font size
 
-![Uploading Screenshot 2024-04-04 162325.png…]()
+<img width="587" alt="flyfish" src="https://github.com/tylerdurden2k2/Flappy_Fish/assets/113615864/44654061-0017-4f75-aa54-6e4daac4559b">
+
